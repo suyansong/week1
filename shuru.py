@@ -5,5 +5,12 @@
 # else:
 #     print("二楼大")
 
-import random
-print(int(random.uniform(1,20)))
+a=2
+b=1
+sum=0
+for i in range(1,21):
+    sum+=a/b
+    t=a
+    a=a+b
+    b=t
+print(sum)
